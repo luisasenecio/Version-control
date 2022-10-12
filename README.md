@@ -11,3 +11,6 @@ The README.md file usually contains a detailed report on the project that this r
 Some files should not be added to the online repo because they might be too large
 Other files are very temporary and will soon become irrelevant when more changes are being made (word, excel, powerpoint, ".Rproj" & ".Rhist" files)
 
+install.packages('gitcreds')
+library(gitcreds)
+gitcreds_delete()
